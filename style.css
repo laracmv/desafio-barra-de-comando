@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-fundo:#18181B;
+    --texto-1: #F4F4F5;
+    --texto-paragrafo:#A1A1AA;
+    --texto-input: #52525B;
+    --inputbox: #27272A;
+    --fonte: 'Roboto', sans-serif;
+ 
+}
+body{
+    background-color: var(--cor-fundo);
+    
+}
+
+.principal__grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.principal__grupo__titulo{
+    color: var(--texto-1);
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.principal__grupo__textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+}
+.principal__grupo__paragrafo{
+    color: var(--texto-paragrafo);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.texto{
+    background: url(./assets/Vector.png) no-repeat scroll 7px 7px;
+    background-position: 2%;
+    padding:16px 0 16px 35px;
+    font-size: 1.25rem;
+    font-family: var(--fonte);
+    border-radius: 8px;
+    width: 560px;
+    border: none;
+    color: var(--texto-input);
+    background-color: var(--inputbox);
+}
